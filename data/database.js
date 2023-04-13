@@ -3,7 +3,7 @@ const pool=mysql.createPool({
     host:'localhost',
     database:'blog',
     user:'root',
-    password:'Chemistry93#'
+    password:''
 });
 
 module.exports=pool;
