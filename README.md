@@ -1,4 +1,4 @@
-# blog-nodejs
+# BackMyBusiness
 1) Attempt to digitalize the payment receipts of Indian traders
 2) Built using NodeJS and SQL
 
