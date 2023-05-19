@@ -4,9 +4,9 @@
   <p><%= post.summary %></p>
   <div class="post-actions">
     <form action="/posts/<%= post.id %>/delete" method="POST">
-      <button class="btn btn-alt">Delete Post</button>
+      <button class="btn btn-alt">Delete Note</button>
     </form>
-    <a href="/posts/<%= post.id %>/edit">Edit Post</a>
-    <a class="btn" href="/posts/<%= post.id %>">View Post</a>
+    <a href="/posts/<%= post.id %>/edit">Edit Note</a>
+    <a class="btn" href="/posts/<%= post.id %>">View Note</a>
   </div>
 </article>
